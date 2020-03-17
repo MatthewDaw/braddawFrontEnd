@@ -10,7 +10,7 @@
 Send me and e-mail brad@braddaw.com.
 </p>
 <p>
-What can you expect when you send e-mail to Brad? You will receive an acknowledgement of your e mail along with the assurance your issue or concern will be researched and responded to within five to seven business days. Please remember, however, that some issues may take longer.
+What can you expect when you send an e-mail to Brad? You will receive an acknowledgement of your e mail along with the assurance your issue or concern will be researched and responded to within five to seven business days. Please remember, however, that some issues may take longer.
 </p>
 <p class="small">U.S. Mail</p> <p class="small">Brad Daw</p>
 <p class="small">842 E. 280 S.</p>

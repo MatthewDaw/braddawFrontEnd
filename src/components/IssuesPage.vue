@@ -1,5 +1,15 @@
  <template>
     <div id="issuePage">
+
+    <h1 class="pageHeader">
+    Issue Link
+    </h1>
+    <a href="html_images.asp" target="_blank">some link</a> 
+
+    <h2 class="paragraphTitle">
+    Issue topic
+    </h2>
+
     {{policyText}}
     </div>
 

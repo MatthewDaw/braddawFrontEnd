@@ -90,3 +90,13 @@ body {
     color: #961408;
     cursor: pointer;
 }
+
+.pageHeader{
+    color: #010159;
+}
+
+.paragraphTitle{
+    font-weight: 400;
+    color: #2e334d;
+    text-align: center;
+}
