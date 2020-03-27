@@ -64,7 +64,7 @@ export default {
 
     subscribe(){
       //Sam builds endpoint here
-      // user input is the variable: this.subscribersEmail
+      // user input: this.subscribersEmail
       
       if(false){
         this.serverError = false;

@@ -22,13 +22,17 @@
             <span class="nav-link" href="#" id="contactLink">Contact Brad Daw <span class="sr-only">(current)</span></span>
           </li>
         </ul>
+        
         <!-- Button trigger modal -->
-      <button @click="prepModal" type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
+      <button @click="prepModal" type="button" class="btn btn-danger" data-toggle="modal" id="subscribeButton" data-target="#exampleModal">
         Subscribe to Mailing List
       </button>
-      <button @click="prepModal" id="donateButton" type="button" class="btn btn-danger">
-        Donate to Campaign
-      </button>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="6ZKZTJ7JR3P22">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
       </div>
     </nav>
     </div>    
@@ -87,6 +91,10 @@
   border-style: solid;
   border-width: 1px;
   border-color: whitesmoke;
+}
+
+#subscribeButton{
+  margin-right: 15px;
 }
 
 </style>
